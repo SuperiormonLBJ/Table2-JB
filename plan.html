@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            vertical-align: top;     /* only for th td tr, not for table*/
+        }
+
+        caption{
+            font-size: x-large;
+        }
+
+        /*this is to make only line for each borderside, default is "separate"*/
+        table{
+            border-collapse: collapse;
+            width:100%;         /*to indicate how wide is the table to display*/
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Johor Bahru</h1>
+
+
+    <!--demo of column span-->
+    <table>
+        <thead>
+            <caption>Restaurant &#x1f958;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Restaurant Teck Sing</td>
+            <td>Seafood</td>
+            <td>Around KSL, seafood...</td>
+            <td>30 ?</td>
+            <td><a href="https://maps.app.goo.gl/BX6sML8hYiCV1Hix9">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+        <tr>
+            <td>Shu Da Xia</td>
+            <td>Hot Pot</td>
+            <td>30 min from CIQ</td>
+            <td>30</td>
+            <td><a href="https://maps.app.goo.gl/hFU1WwHhcSJnzBPf6">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Thrift List &#x1f455;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><a href=""></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><a href=""> </a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Massage List &#x1f486;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Thai Odyssey KSL</td>
+            <td>Thai</td>
+            <td>Not Bad,Only tried this in JB &#x1f927;</td>
+            <td>Depends</td>
+            <td><a href="https://maps.app.goo.gl/DpARgFBTC9dEfdhn9">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+        <tr>
+            <td>Thai Odyssey City Square</td>
+            <td>Thai</td>
+            <td>Not Bad, Only tried this in JB &#x1f927;</td>
+            <td>Depends</td>
+            <td><a href="https://maps.app.goo.gl/82BvaKvBiWwi54Gs7">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Hair Cut List &#x1f487;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Jordan's Hair Cut Shop</td>
+            <td></td>
+            <td><a href="">Google Map</a></td>
+            <td>Jordan</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Dessert List &#x1f370;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Kokoro Cakery</td>
+            <td>Cake + Coffee</td>
+            <td>Chocolate Whisky Cake + Coffee, 20 min from CIQ, east side</td>
+            <td>15</td>
+            <td><a href="https://maps.app.goo.gl/gJhF6qA1aFLxYfJm9">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+        <tr>
+            <td>Verbena Patisserie Shop</td>
+            <td>Bread</td>
+            <td>Japanese Bread Shop</td>
+            <td>less than 10</td>
+            <td><a href="https://maps.app.goo.gl/9wSxM1PjXnPAfyxT9">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Others &#x1f48a; &#x1f415;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <td>Type</td>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Recommended By</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Qi and Acupuncture - Best TCM Acupuncture</td>
+            <td>Chinese Medicine</td>
+            <td>Cupping & </td>
+            <td>30+</td>
+            <td><a href="https://maps.app.goo.gl/y2x1wTfpN3Vm7j39A">Google Map</a></td>
+            <td>BJ</td>
+        </tr>
+
+    </table>
+</body>
+</html>
