@@ -5,23 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Common styles for table elements */
         table,
         th,
         tr,
         td {
             border: 1px solid black;
-            vertical-align: top;     /* only for th td tr, not for table*/
+            vertical-align: top;
+            border-collapse: collapse;
         }
 
-        caption{
+        /* Caption style */
+        caption {
             font-size: x-large;
         }
 
-        /*this is to make only line for each borderside, default is "separate"*/
-        table{
-            border-collapse: collapse;
-            width:100%;         /*to indicate how wide is the table to display*/
-            text-align:center;
+        /* Table style */
+        table {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Body style with background image */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(''); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Header style */
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Table header style */
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Table cell style */
+        td {
+            background-color: #fff;
+            padding: 5px;
+        }
+
+        /* Table link style */
+        a {
+            text-decoration: none;
+            color: #007BFF;
         }
     </style>
 </head>
@@ -35,7 +75,7 @@
             <caption>Restaurant &#x1f958;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
@@ -53,7 +93,7 @@
         <tr>
             <td>Shu Da Xia</td>
             <td>Hot Pot</td>
-            <td>30 min from CIQ</td>
+            <td>Best Hot Pot in JB & SG so far, 30 min from CIQ</td>
             <td>30</td>
             <td><a href="https://maps.app.goo.gl/hFU1WwHhcSJnzBPf6">Google Map</a></td>
             <td>BJ</td>
@@ -72,7 +112,7 @@
             <caption>Thrift List &#x1f455;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
@@ -105,7 +145,7 @@
             <caption>Massage List &#x1f486;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
@@ -142,7 +182,7 @@
             <caption>Hair Cut List &#x1f487;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
@@ -151,6 +191,8 @@
         </thead>
         <tr>
             <td>Jordan's Hair Cut Shop</td>
+            <td></td>
+            <td></td>
             <td></td>
             <td><a href="">Google Map</a></td>
             <td>Jordan</td>
@@ -164,7 +206,7 @@
             <caption>Dessert List &#x1f370;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
@@ -196,7 +238,7 @@
             <caption>Others &#x1f48a; &#x1f415;</caption>
             <tr>
                 <th>Shop Name</th>
-                <td>Type</td>
+                <th>Type</th>
                 <th>Description</th>
                 <th>Price[SGD]</th>
                 <th>Link</th>
