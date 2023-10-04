@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        /* Common styles for table elements */
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            vertical-align: top;
+            border-collapse: collapse;
+        }
+
+        /* Caption style */
+        caption {
+            font-size: x-large;
+        }
+
+        /* Table style */
+        table {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Body style with background image */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(''); /* Replace with your image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Header style */
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Table header style */
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Table cell style */
+        td {
+            background-color: #fff;
+            padding: 5px;
+        }
+
+        /* Table link style */
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Singapore</h1>
+
+
+    <!--demo of column span-->
+    <table>
+        <thead>
+            <caption>Restaurant &#x1f958;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <th>Type</th>
+                <th>Area</th>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Review</th>
+                <th>Visit Date</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>East Ocean Restaurant
+                东海潮州酒家</td>
+            <td>广式点心</td>
+            <td>Orchard</td>
+            <td>Need reservation, 1 hour dinein time</td>
+            <td>30</td>
+            <td><a href="https://maps.app.goo.gl/RPA2XDV2PWJHxcDo6">Google Map</a></td>
+            <td>小蛋挞非常好吃，各种也不错，好于红星</td>
+            <td>
+                1 time before 
+                10.7
+            </td>
+        </tr>
+        <tr>
+            <td>Kra pow Thai Restaurant</td>
+            <td>Thai Food</td>
+            <td>Orchad, FarEast Plaza</td>
+            <td>walk in</td>
+            <td>30</td>
+            <td><a href="https://maps.app.goo.gl/cXAMbXkNRoSn62oH7">Google Map</a></td>
+            <td>炒粉，打抛猪... 好吃 较辣</td>
+            <td>3 times</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Dessert List &#x1f370;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <th>Type</th>
+                <th>Area</th>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Review</th>
+                <th>Visit Date</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Kokoro Cakery</td>
+            <td>Cake + Coffee</td>
+            <td>NorthEast Side,20+min from CIQ</td>
+            <td>Chocolate Whisky Cake + Coffee，直接walkin</td>
+            <td>15+</td>
+            <td><a href="https://maps.app.goo.gl/gJhF6qA1aFLxYfJm9">Google Map</a></td>
+            <td>威士忌蛋糕和不错</td>
+            <td>8.12 9.23</td>
+        </tr>
+        <tr>
+            <td>Verbena Patisserie Shop</td>
+            <td>Bread</td>
+            <td>1 near ShuDaXia, 1 near Kokoro</td>
+            <td>Japanese Bread Shop</td>
+            <td>less 10</td>
+            <td><a href="https://maps.app.goo.gl/9wSxM1PjXnPAfyxT9">Google Map</a></td>
+            <td>面包便宜，地瓜黑面包没买上第一次，甜甜圈好吃</td>
+            <td>9.23</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table>
+        <thead>
+            <caption>Others &#x1f48a; &#x1f415;</caption>
+            <tr>
+                <th>Shop Name</th>
+                <th>Type</th>
+                <th>Area</th>
+                <th>Description</th>
+                <th>Price[SGD]</th>
+                <th>Link</th>
+                <th>Review</th>
+                <th>Visit Date</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Qi and Acupuncture - Best TCM Acupuncture</td>
+            <td>Chinese Medicine</td>
+            <td>15min from CIQ, central</td>
+            <td>Cupping & Acupuncture,看舌头</td>
+            <td>30+</td>
+            <td><a href="https://maps.app.goo.gl/y2x1wTfpN3Vm7j39A">Google Map</a></td>
+            <td>中药不便宜，看诊不贵</td>
+            <td>9.23</td>
+        </tr>
+        <tr>
+            <td>Tale of Paws</td>
+            <td>Pet Shop & Dog & Cat</td>
+            <td>near Kokoro</td>
+            <td>可以代选狗</td>
+            <td>40+</td>
+            <td><a href="https://maps.app.goo.gl/vqnLQWTjbXVoo6727">Google Map</a></td>
+            <td></td>
+            <td>8.12</td>
+        </tr>
+
+    </table>
+</body>
+</html>
